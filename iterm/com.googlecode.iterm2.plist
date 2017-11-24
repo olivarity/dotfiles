@@ -849,9 +849,9 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1327 979 673 261 0 0 2560 1440 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>490 750 796 473 0 0 2560 1440 </string>
+	<string>490 899 796 473 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1910 0 650 1440 0 0 2560 1440 </string>
+	<string>1395 610 650 502 0 0 2560 1440 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1087,6 +1087,8 @@
 				<key>Red Component</key>
 				<real>0.88014161586761475</real>
 			</dict>
+			<key>Cursor Type</key>
+			<integer>0</integer>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
@@ -1733,6 +1735,8 @@
 				<key>Red Component</key>
 				<real>0.88014161586761475</real>
 			</dict>
+			<key>Cursor Type</key>
+			<integer>0</integer>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
@@ -2182,7 +2186,7 @@
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
