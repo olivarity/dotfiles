@@ -1,0 +1,7 @@
+" Use 2 spaces in place of tabs
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
+" Set normal mode cursor to underline
+set guicursor=a:hor20-Cursor
