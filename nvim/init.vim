@@ -19,6 +19,11 @@ endif
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.config/nvim/plug')
 Plug 'scaasic/seti.vim'
+Plug 'itchyny/lightline.vim'
 call plug#end()
+
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
 
 color seti
