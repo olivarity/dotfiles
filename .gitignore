@@ -7,3 +7,8 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Neovim #
+##########
+nvim/plug
+nvim/autoload
