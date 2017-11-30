@@ -5,3 +5,13 @@ set softtabstop=2
 
 " Set normal mode cursor to underline
 set guicursor=a:hor20-Cursor
+
+" Show line numbers
+set number
+
+" Plugins will be downloaded under the specified directory.
+call plug#begin('~/.config/nvim/plug')
+Plug 'scaasic/seti.vim'
+call plug#end()
+
+color seti
