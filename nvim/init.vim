@@ -20,6 +20,8 @@ endif
 call plug#begin('~/.config/nvim/plug')
 Plug 'scaasic/seti.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 call plug#end()
 
 let g:lightline = {
