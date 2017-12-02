@@ -12,3 +12,4 @@ Thumbs.db
 ##########
 nvim/plug
 nvim/autoload
+nvim/.netrwhist
