@@ -6,10 +6,11 @@ brew "mas"
 brew "neovim"
 brew "node"
 brew "yarn"
+cask "1password"
 cask "adobe-creative-cloud"
 cask "alfred"
-cask "dashlane"
 cask "fantastical"
+cask "github"
 cask "google-chrome"
 cask "iterm2"
 cask "karabiner-elements"
@@ -21,9 +22,10 @@ cask "spotify"
 cask "torguard"
 cask "transmission"
 mas "Airmail 3", id: 918858936
-mas "Bear", id: 1091189122
 mas "Keynote", id: 409183694
 mas "Notability", id: 736189492
 mas "Pages", id: 409201541
+mas "Reeder", id: 880001334
+mas "The Unarchiver", id: 425424353
 mas "Things3", id: 904280696
 mas "Xcode", id: 497799835
