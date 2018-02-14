@@ -22,8 +22,6 @@ Plug 'scaasic/seti.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
-Plug 'jiangmiao/auto-pairs'
-Plug 'alvan/vim-closetag'
 call plug#end()
 
 let g:lightline = {
@@ -31,10 +29,3 @@ let g:lightline = {
       \ }
 
 color seti
-
-" closetag config
-let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.erb,*.jsx"
-let g:closetag_xhtml_filenames = '*.xhtml,*.jsx,*.erb'
-let g:closetag_emptyTags_caseSensitive = 1
-let g:closetag_shortcut = '>'
-let g:closetag_close_shortcut = '<leader>>'
