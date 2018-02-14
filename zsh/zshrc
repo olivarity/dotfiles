@@ -45,6 +45,7 @@ alias "vim"="nvim"
 alias "vi"="nvim"
 alias "zrc"="vim ~/.zshrc"
 alias "vrc"="vim ~/.config/nvim/init.vim"
+alias "cds"="cd ~/src"
 
 # Environment variables
 export EDITOR='vim'
