@@ -4,10 +4,13 @@ set shiftwidth=2
 set softtabstop=2
 
 " Set normal mode cursor to underline
-set guicursor=a:hor20-Cursor
+set guicursor=n-v-c-sm-r-cr-o:hor20,i-ci-ve:ver25
 
 " Show line numbers
 set number
+
+" Highlight line
+set cul
 
 " Make sure plugin manager is installed
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
