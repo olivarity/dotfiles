@@ -28,7 +28,6 @@ POWERLEVEL9K_TIME_FORMAT="\uE12E %D{%H:%M}"
 source /usr/local/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 
-antigen bundle git
 antigen bundle yarn
 antigen bundle osx
 antigen bundle docker
@@ -40,12 +39,22 @@ antigen theme bhilburn/powerlevel9k powerlevel9k
 
 antigen apply
 
-# Aliases 
+# Vim aliases
 alias "vim"="nvim"
 alias "vi"="nvim"
 alias "zrc"="vim ~/.zshrc"
 alias "vrc"="vim ~/.config/nvim/init.vim"
+
+# Filesystem aliases
 alias "cds"="cd ~/src"
+
+# Git aliases
+alias "gs"="git status -sb"
+alias "gcm"="git commit -m"
+alias "gpl"="git pull"
+alias "gps"="git push"
+alias "gcl"="git clone"
+alias "gaa"="git add -A"
 
 # Environment variables
 export EDITOR='vim'
