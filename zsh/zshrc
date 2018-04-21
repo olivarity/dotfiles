@@ -60,5 +60,5 @@ alias "grh"="git reset --hard"
 alias "guc"="git reset --hard HEAD^" # "git undo commit"
 
 # Environment variables
-export EDITOR='vim'
+export EDITOR='/usr/local/nvim'
 export NODE_ENV='dev'
