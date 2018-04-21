@@ -62,3 +62,4 @@ alias "guc"="git reset --hard HEAD^" # "git undo commit"
 # Environment variables
 export EDITOR='/usr/local/nvim'
 export NODE_ENV='dev'
+source .env.secrets
