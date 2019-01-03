@@ -1,7 +1,7 @@
-" Use 2 spaces in place of tabs
+" Use 4 spaces in place of tabs
 set expandtab
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 
 " Set normal mode cursor to underline
 set guicursor=n-v-c-sm-r-cr-o:hor20,i-ci-ve:ver25
@@ -10,7 +10,7 @@ set guicursor=n-v-c-sm-r-cr-o:hor20,i-ci-ve:ver25
 set number
 
 " Highlight line
-set cul
+set cursorline
 
 " Make sure plugin manager is installed
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
@@ -23,8 +23,6 @@ endif
 call plug#begin('~/.config/nvim/plug')
 Plug 'scaasic/seti.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
 call plug#end()
 
 let g:lightline = {
