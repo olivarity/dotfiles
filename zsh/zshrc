@@ -63,3 +63,6 @@ alias "guc"="git reset --hard HEAD^" # "git undo commit"
 export EDITOR='/usr/local/nvim'
 export NODE_ENV='dev'
 source .env.secrets
+
+# PATH stuff
+export PATH="/usr/local/opt/python/libexec/bin:$PATH" # Use homebrew Python 3
